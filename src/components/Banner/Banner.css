@@ -1,0 +1,13 @@
+.banner{
+    background-color: black;
+    height:50px;
+    color: gray;
+
+}
+
+.txt{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    
+}

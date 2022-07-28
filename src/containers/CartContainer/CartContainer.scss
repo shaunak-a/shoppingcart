@@ -1,0 +1,42 @@
+.cart {
+    &-container {
+        margin: 4rem;
+        &-items {
+            &-top {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            &-bottom {
+                &-heading {
+                    ul {
+                        list-style-type: none;
+                        display: flex;
+                        justify-content: space-between;
+                        font-weight: bold;
+                        color: #4e4e4e;
+                    }
+                }
+
+                &-list {
+                    ul {
+                        list-style-type: none;
+                        display: flex;
+                        justify-content: space-between;
+                        font-weight: bold;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.table-heading {
+    color: #4e4e4e;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}

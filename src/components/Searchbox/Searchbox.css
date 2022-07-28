@@ -1,0 +1,45 @@
+.Search{
+
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.Search2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+}
+
+.searchbar{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.hding{
+    margin-right: 520px;
+    margin-left: 50px;
+    display:flex;
+    font-style: italic;
+}
+
+.phone{
+
+    margin-left: -120PX;
+    
+}
+
+.addcart{
+
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.heart{
+
+    margin-right: 10px;
+}

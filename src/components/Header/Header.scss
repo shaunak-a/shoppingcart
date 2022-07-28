@@ -1,0 +1,85 @@
+// .header1{
+//     height:150px;
+//     display: flex;
+//     justify-content: center;
+//     background-color: black;
+//     text-align: center;
+//     color:gainsboro;
+//     align-items: center
+// }
+
+// .shop{
+//     display: flex;
+//     justify-content: center;
+// }
+
+.header {
+    &-container {
+        display: flex;
+        flex-direction: column;
+
+        &-banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        &-top {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: whitesmoke;
+
+            &-left {
+                color: rgb(122, 121, 121);
+            }
+
+            &-right {
+                &-links {
+                    display: flex;
+                    gap: 3rem;
+                    
+                    a {
+                        text-decoration: none;
+                        color: #4e4c4c;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        &-bottom {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+
+            &-left {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+
+                &-contactUs {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            &-center {
+                display: flex;
+                align-items: center;
+            }
+
+            &-right {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.headingcart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cartpage{
+    height:100vh;
+}
